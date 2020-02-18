@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <properties resource="db.properties"/>
+    <settings>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <!-- 打印查询语句 -->
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+
+        <!--使用JDBCd的GeneratedKeys获取数据库自增主键值-->
+        <setting name="useGeneratedKeys" value="true"/>
+        <!--使用列标签替换列别名，默认：true-->
+        <setting name="useColumnLabel" value="true"/>
+        <!--开启驼峰命名转换：Table{create_time}->Entity{createTime}-->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+<!--    &lt;!&ndash; 对事务的管理和连接池的配置 &ndash;&gt;-->
+<!--    <environments default="development">-->
+<!--        <environment id="development">-->
+<!--            <transactionManager type="JDBC"/>-->
+<!--            <dataSource type="POOLED">-->
+<!--                <property name="driver" value="${db.driverClassName}"/>-->
+<!--                <property name="url" value="${db.url}"/>-->
+<!--                <property name="username" value="${db.username}"/>-->
+<!--                <property name="password" value="${db.password}"/>-->
+<!--            </dataSource>-->
+<!--        </environment>-->
+<!--    </environments>-->
+    <!-- mapping 文件路径配置 -->
+<!--    <mappers>-->
+<!--        <package name="com.henu.webao"/>-->
+<!--    </mappers>-->
+</configuration>

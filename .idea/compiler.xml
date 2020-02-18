@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hello-web" />
+        <module name="hello-dao" />
+        <module name="hello-kafka" />
+        <module name="hello-entity" />
+        <module name="hello-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hello-util" target="1.7" />
+      <module name="kafkademo" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
