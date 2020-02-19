@@ -38,6 +38,28 @@
             <artifactId>commons-io</artifactId>
             <version>2.0.1</version>
         </dependency>
+
+
+        <!-- servlet依赖，版本需要和servlet容器的一致 -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>3.1.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <!-- spring mvc需要的jar包 -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>5.0.8.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>5.0.8.RELEASE</version>
+        </dependency>
+
+
         <dependency>
             <groupId>com.henu.kaf</groupId>
             <artifactId>hello-kafka</artifactId>

@@ -7,6 +7,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.context.ContextLoader;
@@ -45,7 +46,7 @@ public class HelloController {
 
     @RequestMapping("/test")
     @ResponseBody
-    public ResponseEntity<String> test(HttpServletRequest request, HttpServletResponse response) {
+    public ResponseEntity<String> test(HttpServletRequest request, HttpServletResponse response, Model model) {
        Enumeration headerNames=request.getHeaderNames();
        Map<String,String> headerMap=new HashMap<>();
        while (headerNames.hasMoreElements()){
@@ -55,6 +56,9 @@ public class HelloController {
            headerMap.put(key, value);
        }
        response.addHeader("JSESSIONID",UUID.randomUUID().toString().replaceAll("-","").toUpperCase());
+
+
+       model.addAttribute("map",headerMap.toString());
       return new ResponseEntity<String>(headerMap.toString(), HttpStatus.ACCEPTED);
     }
 }

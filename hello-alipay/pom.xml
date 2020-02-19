@@ -10,11 +10,19 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.henu</groupId>
-    <artifactId>hello-entity</artifactId>
+    <artifactId>hello-alipay</artifactId>
     <version>1.0.0</version>
-    <packaging>jar</packaging>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/com.alipay.sdk/alipay-sdk-java -->
+        <dependency>
+            <groupId>com.alipay.sdk</groupId>
+            <artifactId>alipay-sdk-java</artifactId>
+            <version>3.7.4.ALL</version>
+        </dependency>
+    </dependencies>
 
     <build>
-        <finalName>hello-entity</finalName>
+        <finalName>hello-alipay</finalName>
     </build>
 </project>

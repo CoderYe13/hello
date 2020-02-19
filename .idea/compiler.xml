@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="hello-web" />
+        <module name="hello-entity" />
+        <module name="hello-alipay" />
         <module name="hello-dao" />
         <module name="hello-kafka" />
-        <module name="hello-entity" />
         <module name="hello-service" />
+        <module name="hello-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
