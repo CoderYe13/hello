@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/aop" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+          http://www.springframework.org/schema/beans/spring-beans.xsd
+          http://www.springframework.org/schema/context
+          http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!--     启用扫描机制，并指定扫描对应的包。该元素默认启动-->
+    <context:annotation-config/>
+    <context:component-scan base-package="com.henu" annotation-config="true">
+    </context:component-scan>
+
+    <!--    &lt;!&ndash;扫描软编码文件&ndash;&gt;-->
+    <context:property-placeholder location="classpath:hello.properties"></context:property-placeholder>
+
+
+    <bean id="person" class="com.henu.test.entity.Person" scope="singleton" lazy-init="true">
+        <property name="userName" value="李四"></property>
+        <property name="age" value="21"></property>
+        <property name="car" ref="car"></property>
+        <property name="books">
+            <!--            <list>-->
+            <!--                <bean id="book01" class="com.henu.test.entity.Book">-->
+            <!--                    <property name="author" value="Coder"></property>-->
+            <!--                    <property name="bookName" value="java开发"></property>-->
+            <!--                </bean>-->
+            <!--               <ref bean="book02"/>-->
+            <!--                <ref bean="book03"/>-->
+            <!--            </list>-->
+            <map>
+                <entry key="book01">
+                    <bean id="book01" class="com.henu.test.entity.Book">
+                        <property name="author" value="Coder"></property>
+                        <property name="bookName" value="java开发"></property>
+                    </bean>
+                </entry>
+                <entry key="book02" value-ref="book02"></entry>
+                <entry key="book03" value-ref="book03"></entry>
+            </map>
+        </property>
+        <property name="properties">
+            <props>
+                <prop key="hello">hello</prop>
+            </props>
+        </property>
+    </bean>
+    <bean id="man" class="com.henu.test.entity.Man" parent="person">
+        <property name="password" value="123456"></property>
+    </bean>
+    <bean id="car" class="com.henu.test.entity.Car">
+        <property name="carName" value="BMW"></property>
+        <property name="price" value="120"></property>
+    </bean>
+    <bean id="book02" class="com.henu.test.entity.Book">
+        <property name="author" value="Coder"></property>
+        <property name="bookName" value="java开发"></property>
+    </bean>
+    <bean id="book03" class="com.henu.test.entity.Book">
+        <property name="author" value="Coder"></property>
+        <property name="bookName" value="java开发"></property>
+    </bean>
+    <!--aop-->
+    <bean class="com.henu.test.service.Calculator"></bean>
+
+    <bean id="validAspect" class="com.henu.test.aspect.ValidAspect"></bean>
+    <mvc:aspectj-autoproxy></mvc:aspectj-autoproxy>
+    <!--aopxml配置-->
+    <aop:config>
+        <mvc:pointcut id="validAspectPointCut" expression="execution(public * com.henu.test.service.Calculator.*(..))"/>
+        <mvc:aspect ref="validAspect">
+            <mvc:after method="validEnd" pointcut-ref="validAspectPointCut"></mvc:after>
+            <mvc:before method="validStart" pointcut-ref="validAspectPointCut"></mvc:before>
+            <mvc:after-throwing method="validException" throwing="exception"
+                                pointcut-ref="validAspectPointCut"></mvc:after-throwing>
+            <mvc:after-returning method="validReturn" returning="result"
+                                 pointcut-ref="validAspectPointCut"></mvc:after-returning>
+            <mvc:around method="validAround" pointcut-ref="validAspectPointCut"></mvc:around>
+        </mvc:aspect>
+    </aop:config>
+
+    <import resource="aspect-config.xml"/>
+</beans>

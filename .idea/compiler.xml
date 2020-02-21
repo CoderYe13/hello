@@ -11,7 +11,9 @@
         <module name="hello-dao" />
         <module name="hello-kafka" />
         <module name="hello-service" />
+        <module name="hello-aspect" />
         <module name="hello-web" />
+        <module name="hello-test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

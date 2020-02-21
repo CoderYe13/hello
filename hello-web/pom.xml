@@ -58,8 +58,6 @@
             <artifactId>spring-webmvc</artifactId>
             <version>5.0.8.RELEASE</version>
         </dependency>
-
-
         <dependency>
             <groupId>com.henu.kaf</groupId>
             <artifactId>hello-kafka</artifactId>
@@ -73,6 +71,11 @@
         <dependency>
             <groupId>com.henu</groupId>
             <artifactId>hello-service</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.henu</groupId>
+            <artifactId>hello-aspect</artifactId>
             <version>1.0.0</version>
         </dependency>
         <dependency>

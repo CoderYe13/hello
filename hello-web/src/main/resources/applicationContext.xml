@@ -3,13 +3,12 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:tx="http://www.springframework.org/schema/tx"
        xmlns:context="http://www.springframework.org/schema/context"
-       xsi:schemaLocation="
-          http://www.springframework.org/schema/beans
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
           http://www.springframework.org/schema/beans/spring-beans.xsd
           http://www.springframework.org/schema/tx
           http://www.springframework.org/schema/tx/spring-tx.xsd
           http://www.springframework.org/schema/context
-          http://www.springframework.org/schema/context/spring-context.xsd">
+          http://www.springframework.org/schema/context/spring-context.xsd ">
 
     <!--     启用扫描机制，并指定扫描对应的包。该元素默认启动-->
     <context:annotation-config/>
@@ -61,5 +60,4 @@
         <property name="basePackage" value="com.henu.dao"/>
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
     </bean>
-    <import resource="spring-kafka-producer.xml"/>
 </beans>
