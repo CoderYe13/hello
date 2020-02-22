@@ -57,6 +57,6 @@ public class HelloController {
        }
        response.addHeader("JSESSIONID",UUID.randomUUID().toString().replaceAll("-","").toUpperCase());
        model.addAttribute("map",headerMap.toString());
-      return new ResponseEntity<String>(headerMap.toString(), HttpStatus.ACCEPTED);
+      return new ResponseEntity<>(headerMap.toString(), HttpStatus.ACCEPTED);
     }
 }

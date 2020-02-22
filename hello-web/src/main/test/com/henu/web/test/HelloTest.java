@@ -1,7 +1,7 @@
 package com.henu.web.test;
 
 
-import com.henu.dao.AreaDao;
+import com.henu.dao.area.AreaDao;
 import com.henu.entity.Hello;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;

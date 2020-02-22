@@ -1,0 +1,52 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+    http://www.springframework.org/schema/mvc
+    http://www.springframework.org/schema/mvc/spring-mvc-4.3.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-4.3.xsd ">
+    <!--    导入aop的配置-->
+    <import resource="aspect-config.xml"/>
+    <!-- 配置扫描器 ,这种配置方法使Controller bean在配置的时候只会被扫描一次-->
+    <context:component-scan base-package="com.henu.web">
+        <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
+
+    <!--    <context:component-scan base-package="com.henu.web"/>-->
+    <!-- 注解驱动：配置处理器映射器和适配器 -->
+    <mvc:annotation-driven>
+        <!-- 不使用后缀匹配 -->
+        <mvc:path-matching suffix-pattern="false"/>
+    </mvc:annotation-driven>
+
+    <!-- 允许静态资源访问 -->
+    <mvc:default-servlet-handler/>
+
+    <!-- 配置视图解释器ViewResolver -->
+    <bean id="jspViewResolver" class=
+            "org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/jsp/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+    <!--    &lt;!&ndash; 配置文件上传的解析器 &ndash;&gt;-->
+    <!-- 文件上传 -->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <property name="maxUploadSize" value="10485760"/> <!-- 10m -->
+        <property name="maxInMemorySize" value="4096"/>
+        <property name="defaultEncoding" value="UTF-8"/>
+    </bean>
+
+    <!-- 配置全局拦截器 -->
+    <mvc:interceptors>
+        <!--        <bean class="com.henu.web.interceptor.MyFirstInterceptor">-->
+        <!--        </bean>-->
+        <mvc:interceptor>
+            <mvc:mapping path="/file/*"/>
+            <bean class="com.henu.web.interceptor.MySecondInterceptor"></bean>
+        </mvc:interceptor>
+    </mvc:interceptors>
+</beans>
