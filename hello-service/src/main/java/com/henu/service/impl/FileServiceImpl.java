@@ -91,9 +91,6 @@ public class FileServiceImpl implements IFileService {
     @Override
     public boolean download(String filePath) {
         File file=new File(filePath);
-        if (file.exists()){
-            return true;
-        }
-        return false;
+        return file.exists();
     }
 }

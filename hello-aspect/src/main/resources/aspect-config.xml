@@ -8,7 +8,7 @@
     <!--aopxml配置-->
     <bean id="controllerAspect" class="com.henu.aspect.web.ControllerAspect"></bean>
     <aop:config>
-        <aop:pointcut id="controllerAspectPointCut" expression="execution(* com.henu.web.controller.*.*())"/>
+        <aop:pointcut id="controllerAspectPointCut" expression="execution(* com.henu.web.controller.FileUploadController.*.*(..))"/>
         <aop:aspect ref="controllerAspect">
             <aop:before method="controllerStart" pointcut-ref="controllerAspectPointCut"></aop:before>
             <aop:after method="controllerEnd" pointcut-ref="controllerAspectPointCut"></aop:after>

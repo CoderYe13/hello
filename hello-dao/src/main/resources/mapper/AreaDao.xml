@@ -3,6 +3,14 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.henu.dao.area.AreaDao">
+    <!--自定义结果集-->
+    <resultMap id="areaMap" type="com.henu.entity.Area">
+        <id property="areaId" column="area_id"/>
+        <result property="areaName" column="area_name"/>
+        <result property="priority" column="priority"/>
+        <result property="createTime" column="create_time"/>
+        <result property="lastEditTime" column="last_edit_time"/>
+    </resultMap>
     <select id="queryArea" resultType="com.henu.entity.Area">
         select area_id,area_name,
             priority,create_time,last_edit_time
@@ -10,6 +18,15 @@
             order by priority
             desc
     </select>
+
+    <select id="queryAreaMap" resultMap="areaMap">
+        select area_id,area_name,
+            priority,create_time,last_edit_time
+            from tb_area
+            limit 0,10
+    </select>
+
+
     <select id="queryAreaById" resultType="com.henu.entity.Area">
         select area_id,area_name,
             priority,create_time,last_edit_time

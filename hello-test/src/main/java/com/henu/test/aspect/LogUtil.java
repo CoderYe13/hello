@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 public class LogUtil {
     @Pointcut("execution(public * com.henu.test.service.Calculator.*(..))")
     public void logTest() {
-    };
+    }
 
     @Before(value = "logTest()")
     public void logStart(JoinPoint joinPoint) {

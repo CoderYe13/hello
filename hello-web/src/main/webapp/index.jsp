@@ -17,5 +17,7 @@
     <input type="submit" value="springmvc下载"/>
 </form>
 <br/>
+
+<a href="/hello-web/test02"> test02</a>
 </body>
 </html>

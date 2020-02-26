@@ -49,4 +49,5 @@
             <bean class="com.henu.web.interceptor.MySecondInterceptor"></bean>
         </mvc:interceptor>
     </mvc:interceptors>
+<!--    <bean class="com.henu.web.exception.MyHandlerException"></bean>-->
 </beans>

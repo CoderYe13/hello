@@ -1,9 +1,7 @@
 package com.henu.entity;
-import org.springframework.stereotype.Component;
 
 import java.util.Date;
 
-@Component
 public class Area {
     private  String areaName;
     private Integer areaId;
