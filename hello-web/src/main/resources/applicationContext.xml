@@ -40,10 +40,23 @@
     <!-- Spring集成MyBatis    需要下载spring-mybatis依赖 -->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dataSource"></property>
+        <!-- 分页插件 -->
+        <property name="plugins">
+            <array>
+                <bean class="com.github.pagehelper.PageHelper">
+                    <property name="properties">
+                        <value>
+                            dialect=mysql
+                        </value>
+                    </property>
+                </bean>
+            </array>
+        </property>
         <!-- 扫描sql配置文件:mapper需要的xml文件 -->
         <property name="mapperLocations" value="classpath*:mapper/*.xml"/>
         <!--mybatis系统配置文件-->
         <property name="configLocation" value="classpath:mybatis-config.xml"/>
+
     </bean>
     <!-- 采用自动扫描方式创建mapper bean  自动扫描装配dao -->
     <bean name="mapperScannerConfigurer" class="org.mybatis.spring.mapper.MapperScannerConfigurer">

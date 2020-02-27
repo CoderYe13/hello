@@ -27,7 +27,7 @@ public class HelloTest {
             area.setPriority(i/3418+1);
             areas.add(area);
         }
-        System.out.println(areaDao.bunchInsertArea(areas));
+        System.out.println(areaDao.batchInsertArea(areas));
     }
     @Test
     public void test() throws SQLException {
