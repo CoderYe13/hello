@@ -37,7 +37,7 @@
         <property name="username" value="${db.username}"></property>
         <property name="password" value="${db.password}"></property>
     </bean>
-    <!-- Spring集成MyBatis    需要下载spring-mybatis依赖 -->
+    <!-- 集成MyBatis -->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dataSource"></property>
         <!-- 扫描sql配置文件:mapper需要的xml文件 -->
@@ -45,7 +45,7 @@
         <!--mybatis系统配置文件-->
         <property name="configLocation" value="classpath:mybatis-config.xml"/>
     </bean>
-    <!-- 采用自动扫描方式创建mapper bean  自动扫描装配dao -->
+    <!-- 采用自动扫描方式创建mapper bean -->
     <bean name="mapperScannerConfigurer" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="basePackage" value="com.henu.dao"/>
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>

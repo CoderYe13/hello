@@ -15,6 +15,9 @@ public interface AreaDao {
     //查询多个元素，用一个map封装返回
     @MapKey("areaId")
     Map<Integer,Area> queryAreaMap();
+    //通过List批量插入Area
+    int batchInsertArea(@Param("areas")List<Area> areas);
+
     Area queryAreaById(int areaId);
     int insertArea(Area area);
     int updateArea(Area area);

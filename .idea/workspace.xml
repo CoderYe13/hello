@@ -8,23 +8,14 @@
   <component name="ChangeListManager">
     <list default="true" id="5c3b530a-4f47-473c-94ae-c152abc0e889" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-aspect/src/main/resources/aspect-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-aspect/src/main/resources/aspect-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hello-dao/src/main/java/com/henu/dao/area/AreaDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-dao/src/main/java/com/henu/dao/area/AreaDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hello-dao/src/main/resources/mapper/AreaDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-dao/src/main/resources/mapper/AreaDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-dao/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-dao/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-entity/src/main/java/com/henu/entity/Area.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-entity/src/main/java/com/henu/entity/Area.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hello-service/src/main/java/com/henu/service/IAreaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-service/src/main/java/com/henu/service/IAreaService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hello-service/src/main/java/com/henu/service/impl/AreaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-service/src/main/java/com/henu/service/impl/AreaServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-service/src/main/java/com/henu/service/impl/FileServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-service/src/main/java/com/henu/service/impl/FileServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/aspect/LogUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/aspect/LogUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-web/src/main/java/com/henu/web/controller/FileUploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-web/src/main/java/com/henu/web/controller/FileUploadController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-web/src/main/java/com/henu/web/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-web/src/main/java/com/henu/web/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-web/src/main/java/com/henu/web/util/DESUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-web/src/main/java/com/henu/web/util/DESUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-test/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-test/src/test/java/com/henu/test/test/TestIOC.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-test/src/test/java/com/henu/test/test/TestIOC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hello-web/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-web/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-web/src/main/resources/springmvc-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-web/src/main/resources/springmvc-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hello-web/src/main/test/com/henu/web/test/HelloTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-web/src/main/test/com/henu/web/test/HelloTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-web/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/hello-web/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hello-web/src/main/java/com/henu/web/controller/HelloController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="1612">
+              <caret line="82" column="9" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -61,17 +52,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hello-dao/src/main/resources/mapper/AreaDao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            <state relative-caret-position="884">
+              <caret line="34" column="59" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hello-dao/src/main/resources/mybatis-config.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hello-dao/src/main/java/com/henu/dao/area/AreaDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="846">
-              <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+            <state relative-caret-position="312">
+              <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hello-service/src/main/java/com/henu/service/impl/AreaServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hello-web/src/main/resources/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="68" column="40" lean-forward="true" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -79,8 +88,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hello-web/src/main/resources/springmvc-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="17" column="68" lean-forward="true" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
+            <state relative-caret-position="286">
+              <caret line="47" column="41" lean-forward="true" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hello-aspect/src/main/resources/aspect-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -125,7 +143,6 @@
         <option value="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/entity/Man.java" />
         <option value="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/entity/Person.java" />
         <option value="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/service/Calculator.java" />
-        <option value="$PROJECT_DIR$/hello-test/src/test/java/com/henu/test/test/TestIOC.java" />
         <option value="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/aspect/ValidAspect.java" />
         <option value="$PROJECT_DIR$/hello-aspect/src/main/java/com/henu/aspect/web.java" />
         <option value="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/aspect/ControllerAspect.java" />
@@ -133,7 +150,6 @@
         <option value="$PROJECT_DIR$/hello-aspect/src/main/java/com/henu/aspect/web/Calculator.java" />
         <option value="$PROJECT_DIR$/hello-aspect/src/test/java/com/henu/aspect/test/TestDemo.java" />
         <option value="$PROJECT_DIR$/hello-aspect/pom.xml" />
-        <option value="$PROJECT_DIR$/hello-test/pom.xml" />
         <option value="$PROJECT_DIR$/hello-test/src/main/resources/applicationContext01.xml" />
         <option value="$PROJECT_DIR$/hello-web/src/main/java/com/henu/web/aspect/ControllerAspect.java" />
         <option value="$PROJECT_DIR$/hello-web/pom.xml" />
@@ -154,15 +170,17 @@
         <option value="$PROJECT_DIR$/hello-web/src/main/java/com/henu/web/exception/MyHand.java" />
         <option value="$PROJECT_DIR$/hello-web/src/main/webapp/WEB-INF/jsp/myerror.jsp" />
         <option value="$PROJECT_DIR$/hello-web/src/main/webapp/404.jsp" />
+        <option value="$PROJECT_DIR$/hello-web/src/main/java/com/henu/web/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/hello-dao/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/hello-entity/src/main/java/com/henu/entity/Area.java" />
+        <option value="$PROJECT_DIR$/hello-test/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-service/src/main/java/com/henu/service/impl/AreaServiceImpl.java" />
+        <option value="$PROJECT_DIR$/hello-test/src/test/java/com/henu/test/test/TestIOC.java" />
         <option value="$PROJECT_DIR$/hello-dao/src/main/java/com/henu/dao/area/AreaDao.java" />
         <option value="$PROJECT_DIR$/hello-service/src/main/java/com/henu/service/IAreaService.java" />
         <option value="$PROJECT_DIR$/hello-web/src/main/test/com/henu/web/test/HelloTest.java" />
-        <option value="$PROJECT_DIR$/hello-service/src/main/java/com/henu/service/impl/AreaServiceImpl.java" />
-        <option value="$PROJECT_DIR$/hello-web/src/main/java/com/henu/web/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/hello-web/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/hello-dao/src/main/resources/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/hello-entity/src/main/java/com/henu/entity/Area.java" />
         <option value="$PROJECT_DIR$/hello-dao/src/main/resources/mapper/AreaDao.xml" />
+        <option value="$PROJECT_DIR$/hello-web/src/main/resources/applicationContext.xml" />
       </list>
     </option>
   </component>
@@ -204,9 +222,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="x" value="671" />
+    <option name="y" value="7" />
+    <option name="width" value="700" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectView">
@@ -214,7 +232,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -222,6 +239,32 @@
             <path>
               <item name="hello" type="b2602c69:ProjectViewProjectNode" />
               <item name="hello" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-aspect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-aspect" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-aspect" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-aspect" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hello" type="b2602c69:ProjectViewProjectNode" />
@@ -249,27 +292,11 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="hello" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello" type="462c0819:PsiDirectoryNode" />
-              <item name="hello-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello" type="462c0819:PsiDirectoryNode" />
-              <item name="hello-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -286,15 +313,14 @@
     <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DataSpace\IdeaSpace\hello\hello-aspect\src\main\resources" />
+      <recent name="D:\DataSpace\IdeaSpace\hello\hello-web\src\main\resources" />
+      <recent name="D:\DataSpace\IdeaSpace\hello\hello-kafka\src\main\resources" />
+      <recent name="D:\DataSpace\IdeaSpace\hello\src\main\resources\mapper" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.henu.web" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\DataSpace\IdeaSpace\hello\hello-test\src\main\resources" />
-      <recent name="D:\DataSpace\IdeaSpace\hello\hello-web\src\main\resources" />
-      <recent name="D:\DataSpace\IdeaSpace\hello\hello-dao\src\main\resources" />
-      <recent name="D:\DataSpace\IdeaSpace\hello\hello-entity\src\main\java\com\henu\entity" />
-      <recent name="D:\DataSpace\IdeaSpace\hello\hello-util\src\main\java\com\henu\util" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.henu.aspect.web" />
@@ -302,11 +328,12 @@
       <recent name="com.henu.dao" />
       <recent name="com.henu.service" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\DataSpace\IdeaSpace\hello\hello-aspect\src\main\resources" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DataSpace\IdeaSpace\hello\hello-test\src\main\resources" />
       <recent name="D:\DataSpace\IdeaSpace\hello\hello-web\src\main\resources" />
-      <recent name="D:\DataSpace\IdeaSpace\hello\hello-kafka\src\main\resources" />
-      <recent name="D:\DataSpace\IdeaSpace\hello\src\main\resources\mapper" />
+      <recent name="D:\DataSpace\IdeaSpace\hello\hello-dao\src\main\resources" />
+      <recent name="D:\DataSpace\IdeaSpace\hello\hello-entity\src\main\java\com\henu\entity" />
+      <recent name="D:\DataSpace\IdeaSpace\hello\hello-util\src\main\java\com\henu\util" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -321,7 +348,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat">
+  <component name="RunManager" selected="JUnit.HelloTest.testBunchInsertArea">
     <configuration name="HelloTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hello-web" />
       <extension name="coverage">
@@ -333,6 +360,22 @@
       <option name="PACKAGE_NAME" value="com.henu.web.test" />
       <option name="MAIN_CLASS_NAME" value="com.henu.web.test.HelloTest" />
       <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloTest.testBunchInsertArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.henu.web.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.henu.web.test" />
+      <option name="MAIN_CLASS_NAME" value="com.henu.web.test.HelloTest" />
+      <option name="METHOD_NAME" value="testBunchInsertArea" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -354,37 +397,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestIOC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hello-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.henu.test.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.henu.test.test" />
-      <option name="MAIN_CLASS_NAME" value="com.henu.test.test.TestIOC" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestIOC.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hello-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.henu.test.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.henu.test.test" />
-      <option name="MAIN_CLASS_NAME" value="com.henu.test.test.TestIOC" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestIOC.testAspect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hello-test" />
       <extension name="coverage">
@@ -396,6 +408,22 @@
       <option name="PACKAGE_NAME" value="com.henu.test.test" />
       <option name="MAIN_CLASS_NAME" value="com.henu.test.test.TestIOC" />
       <option name="METHOD_NAME" value="testAspect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestIOC.testBunchInsertArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.henu.test.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.henu.test.test" />
+      <option name="MAIN_CLASS_NAME" value="com.henu.test.test.TestIOC" />
+      <option name="METHOD_NAME" value="testBunchInsertArea" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -476,20 +504,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestIOC.test01" />
-      <item itemvalue="JUnit.TestIOC" />
       <item itemvalue="JUnit.TestIOC.testAspect" />
       <item itemvalue="JUnit.TestDemo.testAspect" />
       <item itemvalue="JUnit.HelloTest.test" />
+      <item itemvalue="JUnit.TestIOC.testBunchInsertArea" />
+      <item itemvalue="JUnit.HelloTest.testBunchInsertArea" />
       <item itemvalue="Tomcat Server.Tomcat" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HelloTest.testBunchInsertArea" />
+        <item itemvalue="JUnit.TestIOC.testBunchInsertArea" />
         <item itemvalue="JUnit.HelloTest.test" />
         <item itemvalue="JUnit.TestIOC.testAspect" />
         <item itemvalue="JUnit.TestDemo.testAspect" />
-        <item itemvalue="JUnit.TestIOC.test01" />
-        <item itemvalue="JUnit.TestIOC" />
       </list>
     </recent_temporary>
   </component>
@@ -528,50 +556,51 @@
       <workItem from="1582530332941" duration="14746000" />
       <workItem from="1582556341839" duration="156000" />
       <workItem from="1582619301890" duration="10352000" />
-      <workItem from="1582705744545" duration="2200000" />
+      <workItem from="1582705744545" duration="9142000" />
+      <workItem from="1582792675926" duration="1158000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestIOC_testAspect - 2020.02.20 at 17h 14m 04s.xml">
-      <configuration name="TestIOC.testAspect" configurationId="JUnit" />
+    <history-entry file="HelloTest_testBunchInsertArea - 2020.02.26 at 22h 14m 13s.xml">
+      <configuration name="HelloTest.testBunchInsertArea" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloTest_test - 2020.02.20 at 17h 27m 11s.xml">
-      <configuration name="HelloTest.test" configurationId="JUnit" />
+    <history-entry file="HelloTest_testBunchInsertArea - 2020.02.26 at 22h 15m 09s.xml">
+      <configuration name="HelloTest.testBunchInsertArea" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloTest_test - 2020.02.20 at 17h 40m 00s.xml">
-      <configuration name="HelloTest.test" configurationId="JUnit" />
+    <history-entry file="HelloTest_testBunchInsertArea - 2020.02.26 at 22h 16m 38s.xml">
+      <configuration name="HelloTest.testBunchInsertArea" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDemo_testAspect - 2020.02.20 at 17h 46m 39s.xml">
-      <configuration name="TestDemo.testAspect" configurationId="JUnit" />
+    <history-entry file="HelloTest_testBunchInsertArea - 2020.02.26 at 22h 18m 47s.xml">
+      <configuration name="HelloTest.testBunchInsertArea" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestIOC_testAspect - 2020.02.20 at 20h 14m 20s.xml">
-      <configuration name="TestIOC.testAspect" configurationId="JUnit" />
+    <history-entry file="HelloTest_testBunchInsertArea - 2020.02.26 at 22h 19m 51s.xml">
+      <configuration name="HelloTest.testBunchInsertArea" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestIOC_testAspect - 2020.02.20 at 20h 15m 17s.xml">
-      <configuration name="TestIOC.testAspect" configurationId="JUnit" />
+    <history-entry file="HelloTest_testBunchInsertArea - 2020.02.26 at 22h 21m 07s.xml">
+      <configuration name="HelloTest.testBunchInsertArea" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloTest_test - 2020.02.25 at 20h 23m 30s.xml">
-      <configuration name="HelloTest.test" configurationId="JUnit" />
+    <history-entry file="HelloTest_testBunchInsertArea - 2020.02.26 at 22h 22m 38s.xml">
+      <configuration name="HelloTest.testBunchInsertArea" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloTest_test - 2020.02.25 at 20h 24m 40s.xml">
-      <configuration name="HelloTest.test" configurationId="JUnit" />
+    <history-entry file="HelloTest_testBunchInsertArea - 2020.02.26 at 22h 23m 52s.xml">
+      <configuration name="HelloTest.testBunchInsertArea" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloTest_test - 2020.02.25 at 20h 26m 26s.xml">
-      <configuration name="HelloTest.test" configurationId="JUnit" />
+    <history-entry file="HelloTest_testBunchInsertArea - 2020.02.26 at 22h 24m 36s.xml">
+      <configuration name="HelloTest.testBunchInsertArea" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloTest_test - 2020.02.25 at 20h 27m 02s.xml">
-      <configuration name="HelloTest.test" configurationId="JUnit" />
+    <history-entry file="HelloTest_testBunchInsertArea - 2020.02.26 at 22h 30m 36s.xml">
+      <configuration name="HelloTest.testBunchInsertArea" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185241000" />
+    <option name="totallyTimeSpent" value="193341000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25189108" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25567323" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -579,7 +608,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.55737704" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.52131146" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.49016392" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -671,7 +700,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/hello-service/src/main/java/com/henu/service/impl/AreaServiceImpl.java</url>
-          <line>17</line>
+          <line>18</line>
           <properties />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
@@ -693,44 +722,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.1.0.RELEASE/spring-tx-5.1.0.RELEASE.jar!/org/springframework/transaction/annotation/Isolation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.1.0.RELEASE/spring-tx-5.1.0.RELEASE.jar!/org/springframework/transaction/annotation/Transactional.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.1.0.RELEASE/spring-tx-5.1.0.RELEASE.jar!/org/springframework/transaction/PlatformTransactionManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/aspect/LogUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="75" selection-start-line="75" selection-end-line="75" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE.jar!/org/springframework/web/bind/annotation/ControllerAdvice.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -892,13 +890,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello-aspect/src/main/resources/aspect-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="17" column="95" lean-forward="true" selection-start-line="17" selection-start-column="95" selection-end-line="17" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hello-web/src/main/webapp/WEB-INF/jsp/404.jsp" />
     <entry file="file://$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/aspect/ValidAspect.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -943,30 +934,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello-dao/src/main/java/com/henu/dao/area/AreaDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-service/src/main/java/com/henu/service/IAreaService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-web/src/main/test/com/henu/web/test/HelloTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.8.RELEASE/spring-webmvc-5.0.8.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -978,13 +945,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
           <caret line="129" selection-start-line="129" selection-end-line="129" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-service/src/main/java/com/henu/service/impl/AreaServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1006,20 +966,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello-web/src/main/java/com/henu/web/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-dao/src/main/resources/mapper/AreaDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hello-entity/src/main/java/com/henu/entity/Area.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-416">
@@ -1034,24 +980,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello-web/src/main/resources/springmvc-config.xml">
+    <entry file="file://$PROJECT_DIR$/hello-dao/src/main/resources/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" column="68" lean-forward="true" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
+        <state relative-caret-position="52">
+          <caret line="2" column="51" lean-forward="true" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-test/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-test/src/main/resources/applicationContext01.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1820" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-test/src/test/java/com/henu/test/test/TestIOC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-service/src/main/java/com/henu/service/IAreaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-web/src/main/java/com/henu/web/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1612">
+          <caret line="82" column="9" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-dao/src/main/resources/mapper/AreaDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="34" column="59" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-dao/src/main/java/com/henu/dao/area/AreaDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-service/src/main/java/com/henu/service/impl/AreaServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-web/src/main/test/com/henu/web/test/HelloTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-web/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2886" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hello-web/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="908">
-          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+        <state relative-caret-position="532">
+          <caret line="68" column="40" lean-forward="true" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello-dao/src/main/resources/mybatis-config.xml">
+    <entry file="file://$PROJECT_DIR$/hello-web/src/main/resources/springmvc-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="846">
-          <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+        <state relative-caret-position="286">
+          <caret line="47" column="41" lean-forward="true" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-aspect/src/main/resources/aspect-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
         </state>
       </provider>
     </entry>

@@ -1,5 +1,9 @@
 package com.henu.test.test;
 
+import com.henu.dao.area.AreaDao;
+import com.henu.entity.Area;
+import com.henu.service.IAreaService;
+import com.henu.service.impl.AreaServiceImpl;
 import com.henu.test.entity.Man;
 import com.henu.test.entity.Person;
 import com.henu.test.service.Calculator;
@@ -7,6 +11,9 @@ import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class TestIOC {
     ConfigurableApplicationContext ioc = new ClassPathXmlApplicationContext("applicationContext01.xml");

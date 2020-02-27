@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
 import java.util.Map;
 
 @Service
@@ -23,6 +24,12 @@ public class AreaServiceImpl implements IAreaService {
     public Map<Integer, Area> queryAreaByMap() {
         Map<Integer,Area> areaMap=areaDao.queryAreaMap();
         return areaMap;
+    }
+
+    @Override
+    public int bunchInsertArea(List<Area> areas) {
+        int row=areaDao.batchInsertArea(areas);
+        return row;
     }
 
     public AreaServiceImpl() {

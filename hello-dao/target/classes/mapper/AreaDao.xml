@@ -27,7 +27,7 @@
     </select>
 
 
-    <insert id="batchInsertArea" parameterType="list">
+    <insert id="bunchInsertArea" parameterType="list">
         insert into tb_area
         (area_name,priority,create_time,last_edit_time)
         values

@@ -2,6 +2,7 @@ package com.henu.web.test;
 
 
 import com.henu.dao.area.AreaDao;
+import com.henu.entity.Area;
 import com.henu.entity.Hello;
 import com.henu.service.IAreaService;
 import com.henu.service.impl.AreaServiceImpl;
@@ -11,12 +12,26 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import javax.sql.DataSource;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class HelloTest {
-
+    ApplicationContext applicationContext = new ClassPathXmlApplicationContext("classpath:applicationContext.xml");
+    @Test
+    public void testBunchInsertArea() {
+        AreaDao areaDao=applicationContext.getBean(AreaDao.class);
+        List<Area> areas=new ArrayList<>();
+        for (int i = 3422; i < 3424; i++) {
+            Area area=new Area();
+            area.setAreaName(i+"苑");
+            area.setPriority(i/3418+1);
+            areas.add(area);
+        }
+        System.out.println(areaDao.bunchInsertArea(areas));
+    }
     @Test
     public void test() throws SQLException {
-        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("classpath:applicationContext.xml");
+
         DataSource dataSource = applicationContext.getBean(DataSource.class);
 
         IAreaService areaDao=applicationContext.getBean(IAreaService.class);
