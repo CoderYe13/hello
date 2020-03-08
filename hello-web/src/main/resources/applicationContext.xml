@@ -56,9 +56,10 @@
         <property name="mapperLocations" value="classpath*:mapper/*.xml"/>
         <!--mybatis系统配置文件-->
         <property name="configLocation" value="classpath:mybatis-config.xml"/>
-
     </bean>
-    <!-- 采用自动扫描方式创建mapper bean  自动扫描装配dao -->
+    <!-- 采用自动扫描方式创建mapper bean  自动扫描装配dao,这个是向spring注入dao，这个类实现 PostProcessor
+        接口，此类在spring初始化的时候通过后置处理器会将dao的bean注入到spring容器，这个是实现将mybatis向spring整合的关键
+    -->
     <bean name="mapperScannerConfigurer" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="basePackage" value="com.henu.dao"/>
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
