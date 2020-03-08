@@ -1,20 +1,16 @@
 package com.henu.web.controller;
 
 import com.henu.entity.Area;
-import com.henu.kfk.KafkaSend;
+import com.henu.redis.util.RedisPoolUtil;
 import com.henu.service.IAreaService;
-import com.henu.service.impl.AreaServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.context.ContextLoader;
-import org.springframework.web.context.WebApplicationContext;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -80,6 +76,15 @@ public class HelloController {
         Map<Integer, Area>areaMap=areaService.queryAreaByMap();
         for(Map.Entry<Integer,Area> area :areaMap.entrySet()){
             System.out.println(area.getKey()+":"+area.getValue());
+        }
+        return "success";
+    }
+    @RequestMapping(value = "/test04")
+    @ResponseBody
+    public String test04() {
+        Map<Integer, Area>areaMap=areaService.queryAreaByMap();
+        for(Map.Entry<Integer,Area> area :areaMap.entrySet()){
+            RedisPoolUtil.append("areaMap",area.getValue().toString());
         }
         return "success";
     }

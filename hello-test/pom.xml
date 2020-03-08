@@ -33,11 +33,11 @@
             <artifactId>hello-aspect</artifactId>
             <version>1.0.0</version>
         </dependency>
-        <dependency>
-            <groupId>com.henu</groupId>
-            <artifactId>hello-service</artifactId>
-            <version>1.0.0</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.henu</groupId>-->
+<!--            <artifactId>hello-service</artifactId>-->
+<!--            <version>1.0.0</version>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>

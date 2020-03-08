@@ -16,6 +16,7 @@
         <module>hello-alipay</module>
         <module>hello-test</module>
         <module>hello-aspect</module>
+        <module>hello-redis</module>
     </modules>
     <packaging>pom</packaging>
 
