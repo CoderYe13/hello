@@ -7,9 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c3b530a-4f47-473c-94ae-c152abc0e889" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hello-redis/src/test/java/com/henu/redis/test/RedisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-redis/src/test/java/com/henu/redis/test/RedisTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-web/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-web/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-test/src/main/resources/applicationContext01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-test/src/main/resources/applicationContext01.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-test/src/test/java/com/henu/test/test/TestIOC.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-test/src/test/java/com/henu/test/TestIOC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-web/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,11 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hello-redis/src/test/java/com/henu/redis/test/RedisTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1742">
-              <caret line="67" column="46" lean-forward="true" selection-start-line="67" selection-start-column="46" selection-end-line="67" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="156">
+              <caret line="72" column="44" lean-forward="true" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -53,9 +53,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
-        <option value="Interface" />
         <option value="spring-beans.schema" />
         <option value="Jsp File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -70,6 +70,12 @@
       <find>sqlsession</find>
       <find>sqlSessionManager</find>
       <find>sqlSession</find>
+      <find>is</find>
+      <find>public &lt;T&gt; T getBean(Class&lt;T&gt; requiredType) throws BeansException</find>
+      <find>getBean(</find>
+      <find>postProcessAfterInitialization</find>
+      <find>getAdvicesAndAdvisorsForBean</find>
+      <find>refresh()</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -78,30 +84,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/entity/Person.java" />
-        <option value="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/service/Calculator.java" />
-        <option value="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/aspect/ValidAspect.java" />
-        <option value="$PROJECT_DIR$/hello-aspect/src/main/java/com/henu/aspect/web.java" />
-        <option value="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/aspect/ControllerAspect.java" />
-        <option value="$PROJECT_DIR$/hello-web/src/main/resources/aspect-config.xml" />
-        <option value="$PROJECT_DIR$/hello-aspect/src/main/java/com/henu/aspect/web/Calculator.java" />
-        <option value="$PROJECT_DIR$/hello-aspect/src/test/java/com/henu/aspect/test/TestDemo.java" />
-        <option value="$PROJECT_DIR$/hello-aspect/pom.xml" />
-        <option value="$PROJECT_DIR$/hello-web/src/main/java/com/henu/web/aspect/ControllerAspect.java" />
-        <option value="$PROJECT_DIR$/hello-aspect/src/main/java/com/henu/aspect/ServiceAspect.java" />
-        <option value="$PROJECT_DIR$/hello-aspect/src/main/java/com/henu/aspect/service/ServiceAspect.java" />
-        <option value="$PROJECT_DIR$/hello-aspect/src/main/java/com/henu/aspect/web/ControllerAspect.java" />
-        <option value="$PROJECT_DIR$/hello-dao/src/main/java/com/henu/dao/AreaDao.java" />
-        <option value="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/aspect/LogUtil.java" />
-        <option value="$PROJECT_DIR$/hello-web/src/main/webapp/WEB-INF/jsp/test01.jsp" />
-        <option value="$PROJECT_DIR$/hello-web/src/main/webapp/WEB-INF/jsp/test02.jsp" />
-        <option value="$PROJECT_DIR$/hello-web/src/main/java/com/henu/web/exception/HandleAllException.java" />
         <option value="$PROJECT_DIR$/hello-aspect/src/main/resources/aspect-config.xml" />
         <option value="$PROJECT_DIR$/hello-web/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/hello-web/src/main/webapp/WEB-INF/jsp/404.jsp" />
         <option value="$PROJECT_DIR$/hello-web/src/main/java/com/henu/web/exception/MyHandlerException.java" />
         <option value="$PROJECT_DIR$/hello-web/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/hello-web/src/main/resources/springmvc-config.xml" />
         <option value="$PROJECT_DIR$/hello-web/src/main/java/com/henu/web/exception/MyHand.java" />
         <option value="$PROJECT_DIR$/hello-web/src/main/webapp/WEB-INF/jsp/myerror.jsp" />
         <option value="$PROJECT_DIR$/hello-web/src/main/webapp/404.jsp" />
@@ -111,26 +98,50 @@
         <option value="$PROJECT_DIR$/hello-service/src/main/java/com/henu/service/impl/AreaServiceImpl.java" />
         <option value="$PROJECT_DIR$/hello-web/src/main/test/com/henu/web/test/HelloTest.java" />
         <option value="$PROJECT_DIR$/hello-dao/pom.xml" />
-        <option value="$PROJECT_DIR$/hello-test/src/main/resources/applicationContext01.xml" />
         <option value="$PROJECT_DIR$/hello-dao/src/main/resources/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/service/IndexService.java" />
         <option value="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/service/UserService.java" />
         <option value="$PROJECT_DIR$/hello-test/pom.xml" />
-        <option value="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/AppConfig.java" />
         <option value="$PROJECT_DIR$/hello-dao/src/main/java/com/henu/dao/area/AreaDao.java" />
         <option value="$PROJECT_DIR$/hello-test/src/test/java/com/henu/test/test/TestIOC.java" />
         <option value="$PROJECT_DIR$/hello-redis/pom.xml" />
         <option value="$PROJECT_DIR$/hello-redis/src/main/java/com/henu/redis/RedisPoolUtil.java" />
         <option value="$PROJECT_DIR$/hello-redis/src/main/java/com/henu/redis/PropertiesUtil.java" />
-        <option value="$PROJECT_DIR$/hello-redis/src/main/resources/redis.properties" />
         <option value="$PROJECT_DIR$/hello-redis/src/main/java/com/henu/redis/RedisPool.java" />
-        <option value="$PROJECT_DIR$/hello-web/pom.xml" />
         <option value="$PROJECT_DIR$/hello-redis/src/main/java/com/henu/redis/util/RedisPoolUtil.java" />
         <option value="$PROJECT_DIR$/hello-web/src/main/java/com/henu/web/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/hello-redis/src/test/java/com/henu/redis/test/RedisTest.java" />
         <option value="$PROJECT_DIR$/hello-web/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/hello-web/src/main/resources/springmvc-config.xml" />
+        <option value="$PROJECT_DIR$/hello-redis/src/main/resources/redis.properties" />
+        <option value="$PROJECT_DIR$/hello-web/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-test/src/main/resources/applicationContext01.xml" />
+        <option value="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/config/MyPostProcessor.java" />
+        <option value="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/config/MyAopPostProcessor.java" />
+        <option value="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/config/ServiceFactory.java" />
+        <option value="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/service/MyHenuerA.java" />
+        <option value="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/service/MyHenuerB.java" />
+        <option value="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/config/HenuerImportBeanDefinitionRegistrar.java" />
+        <option value="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/AppConfig.java" />
+        <option value="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/service/Z.java" />
+        <option value="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/annotation/Henuer.java" />
+        <option value="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/annotation/MyImport.java" />
+        <option value="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/service/A.java" />
+        <option value="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/service/B.java" />
+        <option value="$PROJECT_DIR$/hello-test/src/test/java/com/henu/test/TestIOC.java" />
+        <option value="$PROJECT_DIR$/hello-aspect/src/main/java/com/henu/aspect/web/ControllerAspect.java" />
+        <option value="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/holder/ProxyBeanHolder.java" />
+        <option value="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/holder/ConfigurationUtil.java" />
+        <option value="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/holder/RealizedAopBeanPostProcessor.java" />
+        <option value="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/holder/CustomizedAopImportSelector.java" />
+        <option value="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/holder/RegisterBeanFactoryPostProcessor.java" />
+        <option value="$PROJECT_DIR$/hello-redis/src/test/java/com/henu/redis/test/RedisTest.java" />
       </list>
     </option>
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="TestIOC.test02" />
+    </enabled-run-configurations>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -159,18 +170,16 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="354" />
-    <option name="width" value="904" />
-    <option name="height" value="754" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="889" />
+    <option name="width" value="496" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,6 +191,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -190,7 +201,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/hello-redis/src/main/java/com/henu/redis" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cloud_demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Problems" />
@@ -234,7 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Idea Tomcat 8.5.33">
+  <component name="RunManager" selected="Application.RedisTest">
     <configuration name="RedisTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.henu.redis.test.RedisTest" />
       <module name="hello-redis" />
@@ -248,18 +259,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestIOC.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hello-test" />
+    <configuration name="TestDemo.testAspect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello-aspect" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.henu.test.test.*" />
+          <option name="PATTERN" value="com.henu.aspect.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.henu.test.test" />
-      <option name="MAIN_CLASS_NAME" value="com.henu.test.test.TestIOC" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="PACKAGE_NAME" value="com.henu.aspect.test" />
+      <option name="MAIN_CLASS_NAME" value="com.henu.aspect.test.TestDemo" />
+      <option name="METHOD_NAME" value="testAspect" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestIOC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.henu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.henu.test" />
+      <option name="MAIN_CLASS_NAME" value="com.henu.test.TestIOC" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -268,13 +294,29 @@
       <module name="hello-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.henu.test.test.*" />
+          <option name="PATTERN" value="com.henu.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.henu.test.test" />
-      <option name="MAIN_CLASS_NAME" value="com.henu.test.test.TestIOC" />
+      <option name="PACKAGE_NAME" value="com.henu.test" />
+      <option name="MAIN_CLASS_NAME" value="com.henu.test.TestIOC" />
       <option name="METHOD_NAME" value="test02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestIOC.test05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.henu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.henu.test" />
+      <option name="MAIN_CLASS_NAME" value="com.henu.test.TestIOC" />
+      <option name="METHOD_NAME" value="test05" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -355,16 +397,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RedisTest" />
-      <item itemvalue="JUnit.TestIOC.test01" />
+      <item itemvalue="JUnit.TestIOC.test05" />
+      <item itemvalue="JUnit.TestIOC" />
       <item itemvalue="JUnit.TestIOC.test02" />
+      <item itemvalue="JUnit.TestDemo.testAspect" />
       <item itemvalue="Tomcat Server.Idea Tomcat 8.5.33" />
+      <item itemvalue="Application.RedisTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.RedisTest" />
+        <item itemvalue="JUnit.TestDemo.testAspect" />
         <item itemvalue="JUnit.TestIOC.test02" />
-        <item itemvalue="JUnit.TestIOC.test01" />
+        <item itemvalue="JUnit.TestIOC" />
+        <item itemvalue="JUnit.TestIOC.test05" />
       </list>
     </recent_temporary>
   </component>
@@ -412,44 +458,55 @@
       <workItem from="1583499482766" duration="4979000" />
       <workItem from="1583566634385" duration="9576000" />
       <workItem from="1583579027439" duration="8011000" />
-      <workItem from="1583655460018" duration="16424000" />
+      <workItem from="1583655460018" duration="17021000" />
+      <workItem from="1583756210637" duration="4823000" />
+      <workItem from="1583842932107" duration="1656000" />
+      <workItem from="1584277071389" duration="2099000" />
+      <workItem from="1585834415886" duration="1933000" />
+      <workItem from="1586001225410" duration="4691000" />
+      <workItem from="1587642164199" duration="10624000" />
+      <workItem from="1587809091504" duration="5288000" />
+      <workItem from="1588073162023" duration="8315000" />
+      <workItem from="1588170859565" duration="5839000" />
+      <workItem from="1588255109117" duration="2894000" />
+      <workItem from="1588311898830" duration="3586000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestIOC_test02 - 2020.03.06 at 21h 37m 04s.xml">
+    <history-entry file="TestIOC_test04 - 2020.04.28 at 20h 45m 01s.xml">
+      <configuration name="TestIOC.test04" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestIOC_test04 - 2020.04.28 at 20h 45m 56s.xml">
+      <configuration name="TestIOC.test04" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestIOC_testHunuer - 2020.04.28 at 21h 12m 37s.xml">
+      <configuration name="TestIOC.testHunuer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestIOC_testHunuer - 2020.04.28 at 21h 13m 36s.xml">
+      <configuration name="TestIOC.testHunuer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestIOC_testHunuer - 2020.04.28 at 21h 13m 59s.xml">
+      <configuration name="TestIOC.testHunuer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestIOC_test05 - 2020.04.28 at 23h 58m 20s.xml">
+      <configuration name="TestIOC.test05" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestIOC_test05 - 2020.04.29 at 00h 00m 44s.xml">
+      <configuration name="TestIOC.test05" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestIOC - 2020.04.29 at 00h 01m 15s.xml">
+      <configuration name="TestIOC" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestIOC_test02 - 2020.04.29 at 23h 48m 48s.xml">
       <configuration name="TestIOC.test02" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestIOC_test02 - 2020.03.06 at 21h 42m 16s.xml">
-      <configuration name="TestIOC.test02" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestIOC_test02 - 2020.03.06 at 21h 42m 39s.xml">
-      <configuration name="TestIOC.test02" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestIOC_test02 - 2020.03.06 at 21h 43m 03s.xml">
-      <configuration name="TestIOC.test02" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestIOC_test02 - 2020.03.06 at 21h 51m 21s.xml">
-      <configuration name="TestIOC.test02" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestIOC_test02 - 2020.03.07 at 16h 01m 41s.xml">
-      <configuration name="TestIOC.test02" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestIOC_test02 - 2020.03.07 at 16h 13m 41s.xml">
-      <configuration name="TestIOC.test02" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestIOC_test02 - 2020.03.07 at 16h 46m 51s.xml">
-      <configuration name="TestIOC.test02" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestIOC_test02 - 2020.03.07 at 17h 49m 17s.xml">
-      <configuration name="TestIOC.test02" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestIOC_test02 - 2020.03.07 at 18h 08m 29s.xml">
-      <configuration name="TestIOC.test02" configurationId="JUnit" />
+    <history-entry file="TestDemo_testAspect - 2020.04.30 at 00h 08m 44s.xml">
+      <configuration name="TestDemo.testAspect" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="244915000" />
+    <option name="totallyTimeSpent" value="297260000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -464,7 +521,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16414523" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2118003" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -472,8 +529,8 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42295083" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.44262296" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3737705" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.63442624" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
@@ -482,7 +539,38 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Spring" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32786885" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3786885" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.32786885" />
+      <window_info anchor="bottom" id="Application Servers" order="14" weight="0.3289689" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23827533" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43114755" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.56905156" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" weight="0.3295082" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3295082" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Spring" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3786885" />
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.32786885" />
       <window_info anchor="bottom" id="Application Servers" order="14" weight="0.3289689" />
       <window_info anchor="bottom" id="Java Enterprise" order="15" />
@@ -493,7 +581,7 @@
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Maven" order="5" weight="0.32980332" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -538,28 +626,10 @@
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/hello-test/src/test/java/com/henu/test/test/TestIOC.java</url>
-          <line>40</line>
-          <properties />
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.class</url>
           <line>34</line>
           <properties />
           <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE.jar!/org/springframework/context/support/PostProcessorRegistrationDelegate.class</url>
-          <line>67</line>
-          <properties />
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class</url>
-          <line>117</line>
-          <properties />
-          <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class</url>
@@ -568,47 +638,22 @@
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <condition expression="beanName.equals(&quot;indexService&quot;)" language="JAVA" />
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class</url>
-          <line>178</line>
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class</url>
+          <line>275</line>
           <properties />
-          <option name="timeStamp" value="38" />
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
-          <line>306</line>
+          <url>file://$PROJECT_DIR$/hello-test/src/test/java/com/henu/test/TestIOC.java</url>
+          <line>41</line>
           <properties />
-          <option name="timeStamp" value="41" />
+          <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
-          <line>347</line>
+          <url>file://$PROJECT_DIR$/hello-aspect/src/test/java/com/henu/aspect/test/TestDemo.java</url>
+          <line>12</line>
           <properties />
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
-          <line>326</line>
-          <properties />
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
-          <line>749</line>
-          <properties />
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
-          <line>810</line>
-          <properties />
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
-          <line>813</line>
-          <properties />
-          <option name="timeStamp" value="51" />
+          <option name="timeStamp" value="59" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.8.RELEASE/spring-webmvc-5.0.8.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class</url>
@@ -626,38 +671,6 @@
           </properties>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
-          <line>277</line>
-          <properties class="org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory" method="createBean">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
-          <line>319</line>
-          <properties class="org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory" method="doCreateBean">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
-          <line>723</line>
-          <properties class="org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory" method="createBeanInstance">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
-          <line>805</line>
-          <properties class="org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory" method="instantiateBean">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.8.RELEASE/spring-webmvc-5.0.8.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class</url>
           <line>88</line>
@@ -667,8 +680,17 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>singletonObject.equals(&quot;indexService&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>beanName.equals(&quot;indexService&quot;)</expression-string>
         <language-id>JAVA</language-id>
@@ -677,463 +699,409 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/aspect/LogUtil.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/2.2.5.RELEASE/spring-kafka-2.2.5.RELEASE.jar!/org/springframework/kafka/annotation/KafkaListeners.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1222">
-          <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+        <state relative-caret-position="234">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello-test/src/test/java/com/henu/test/test/TestIOC.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/2.2.5.RELEASE/spring-kafka-2.2.5.RELEASE.jar!/org/springframework/kafka/annotation/KafkaListener.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="168">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/2.2.5.RELEASE/spring-kafka-2.2.5.RELEASE.jar!/org/springframework/kafka/annotation/EnableKafka.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE.jar!/org/springframework/stereotype/Component.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="13" selection-start-line="13" selection-end-line="14" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE.jar!/org/springframework/context/annotation/ComponentScan.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/annotation/MyImport.java" />
+    <entry file="file://$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/annotation/Henuer.java" />
+    <entry file="file://$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/config/ServiceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.class">
+    <entry file="file://$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/service/B.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="26">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.8.RELEASE/spring-core-5.0.8.RELEASE.jar!/org/springframework/util/ObjectUtils.class">
+    <entry file="file://$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/service/A.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="52">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
           <folding>
-            <element signature="e#1845#1846#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.8.RELEASE/spring-core-5.0.8.RELEASE.jar!/org/springframework/util/Assert.class">
+    <entry file="file://$PROJECT_DIR$/hello-aspect/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.9.1/aspectjweaver-1.9.1.jar!/org/aspectj/lang/annotation/Aspect.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="208">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/AbstractNestablePropertyAccessor.class">
+    <entry file="file://$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/holder/ProxyBeanHolder.java" />
+    <entry file="file://$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/holder/ConfigurationUtil.java" />
+    <entry file="file://$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/holder/CustomizedAopImportSelector.java" />
+    <entry file="file://$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/holder/RegisterBeanFactoryPostProcessor.java" />
+    <entry file="file://$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/holder/RealizedAopBeanPostProcessor.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="113" selection-start-line="113" selection-end-line="113" />
+        <state relative-caret-position="-1768" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-aspect/src/main/java/com/henu/aspect/web/ControllerAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanDefinition.class">
+    <entry file="file://$PROJECT_DIR$/hello-web/src/main/java/com/henu/web/controller/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="300" selection-start-line="300" selection-end-line="300" />
+        <state relative-caret-position="-780">
+          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
           <folding>
-            <element signature="e#12163#12164#0" expanded="true" />
-            <element signature="e#18630#18631#0" expanded="true" />
-            <element signature="e#18667#18668#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.class">
+    <entry file="file://$PROJECT_DIR$/hello-aspect/src/main/resources/aspect-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="147" selection-start-line="147" selection-end-line="147" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="311" selection-start-line="311" selection-end-line="311" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="117" selection-start-line="117" selection-end-line="117" />
-          <folding>
-            <element signature="e#23248#23249#0" expanded="true" />
-            <element signature="e#23293#23294#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="442">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE.jar!/org/springframework/context/support/PostProcessorRegistrationDelegate.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="182" selection-start-line="182" selection-end-line="182" />
+        <state relative-caret-position="107">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/support/GenericBeanDefinition.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#707#708#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/support/RootBeanDefinition.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
+          <folding>
+            <element signature="e#3738#3739#0" expanded="true" />
+            <element signature="e#3769#3770#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/BeanMetadataAttributeAccessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.8.RELEASE/spring-core-5.0.8.RELEASE.jar!/org/springframework/util/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="581" selection-start-line="581" selection-end-line="581" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.8.RELEASE/spring-core-5.0.8.RELEASE.jar!/org/springframework/core/AttributeAccessorSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <element signature="e#1368#1369#0" expanded="true" />
+            <element signature="e#1442#1443#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/MutablePropertyValues.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="196" selection-start-line="196" selection-end-line="196" />
+          <folding>
+            <element signature="e#6339#6340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/support/MethodOverrides.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="e#1193#1194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/BeanFactoryUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="181" selection-start-line="181" selection-end-line="181" />
+          <folding>
+            <element signature="e#8007#8008#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.8.RELEASE/spring-core-5.0.8.RELEASE.jar!/org/springframework/core/SimpleAliasRegistry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+          <folding>
+            <element signature="e#3409#3410#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="844" column="33" selection-start-line="844" selection-start-column="33" selection-end-line="844" selection-end-column="33" />
+          <folding>
+            <element signature="e#23138#23139#0" expanded="true" />
+            <element signature="e#23183#23184#0" expanded="true" />
+            <element signature="e#27035#27036#0" expanded="true" />
+            <element signature="e#27096#27097#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanDefinition.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="436" selection-start-line="436" selection-end-line="436" />
+          <folding>
+            <element signature="e#10488#10489#0" expanded="true" />
+            <element signature="e#10534#10535#0" expanded="true" />
+            <element signature="e#11409#11410#0" expanded="true" />
+            <element signature="e#11463#11464#0" expanded="true" />
+            <element signature="e#11936#11937#0" expanded="true" />
+            <element signature="e#11970#11971#0" expanded="true" />
+            <element signature="e#12016#12017#0" expanded="true" />
+            <element signature="e#12049#12050#0" expanded="true" />
+            <element signature="e#12305#12306#0" expanded="true" />
+            <element signature="e#12353#12354#0" expanded="true" />
+            <element signature="e#12388#12389#0" expanded="true" />
+            <element signature="e#12428#12429#0" expanded="true" />
+            <element signature="e#12477#12478#0" expanded="true" />
+            <element signature="e#12517#12518#0" expanded="true" />
+            <element signature="e#12552#12553#0" expanded="true" />
+            <element signature="e#12588#12589#0" expanded="true" />
+            <element signature="e#12641#12642#0" expanded="true" />
+            <element signature="e#12689#12690#0" expanded="true" />
+            <element signature="e#12725#12726#0" expanded="true" />
+            <element signature="e#12765#12766#0" expanded="true" />
+            <element signature="e#13407#13408#0" expanded="true" />
+            <element signature="e#13461#13462#0" expanded="true" />
+            <element signature="e#13500#13501#0" expanded="true" />
+            <element signature="e#13543#13544#0" expanded="true" />
+            <element signature="e#13606#13607#0" expanded="true" />
+            <element signature="e#13648#13649#0" expanded="true" />
+            <element signature="e#13700#13701#0" expanded="true" />
+            <element signature="e#13737#13738#0" expanded="true" />
+            <element signature="e#13804#13805#0" expanded="true" />
+            <element signature="e#13862#13863#0" expanded="true" />
+            <element signature="e#13906#13907#0" expanded="true" />
+            <element signature="e#13951#13952#0" expanded="true" />
+            <element signature="e#13998#13999#0" expanded="true" />
+            <element signature="e#14036#14037#0" expanded="true" />
+            <element signature="e#14070#14071#0" expanded="true" />
+            <element signature="e#14105#14106#0" expanded="true" />
+            <element signature="e#15679#15680#0" expanded="true" />
+            <element signature="e#15733#15734#0" expanded="true" />
+            <element signature="e#15832#15833#0" expanded="true" />
+            <element signature="e#15908#15909#0" expanded="true" />
+            <element signature="e#15966#15967#0" expanded="true" />
+            <element signature="e#16024#16025#0" expanded="true" />
+            <element signature="e#16069#16070#0" expanded="true" />
+            <element signature="e#17054#17055#0" expanded="true" />
+            <element signature="e#17138#17139#0" expanded="true" />
+            <element signature="e#17513#17514#0" expanded="true" />
+            <element signature="e#17599#17600#0" expanded="true" />
+            <element signature="e#18704#18705#0" expanded="true" />
+            <element signature="e#18736#18737#0" expanded="true" />
+            <element signature="e#18764#18765#0" expanded="true" />
+            <element signature="e#18796#18797#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-aspect/src/test/java/com/henu/aspect/test/TestDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE.jar!/org/springframework/context/support/AbstractRefreshableApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.8.RELEASE/spring-core-5.0.8.RELEASE.jar!/org/springframework/util/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.8.RELEASE/spring-core-5.0.8.RELEASE.jar!/org/springframework/core/ResolvableType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="640" selection-start-line="640" selection-end-line="640" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.8.RELEASE/spring-aop-5.0.8.RELEASE.jar!/org/springframework/aop/aspectj/annotation/AnnotationAwareAspectJAutoProxyCreator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="18" column="79" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="241" lean-forward="true" selection-start-line="241" selection-end-line="241" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/BeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE.jar!/org/springframework/context/ApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE.jar!/org/springframework/context/Lifecycle.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="270" selection-start-line="270" selection-end-line="270" />
-          <folding>
-            <element signature="e#9723#9724#0" expanded="true" />
-            <element signature="e#9776#9777#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="167">
+          <caret line="489" column="34" selection-start-line="489" selection-start-column="25" selection-end-line="489" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="uml://JIGSAW/spring.beans">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JIGSAW</ID>
-          <OriginalElement>spring.beans</OriginalElement>
-          <nodes>
-            <node x="" y="">spring.beans</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-232.0" y="-21.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/org.springframework.beans.factory.config.BeanPostProcessor">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>org.springframework.beans.factory.config.BeanPostProcessor</OriginalElement>
-          <nodes>
-            <node x="" y="">org.springframework.beans.factory.config.BeanPostProcessor</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-202.0" y="-21.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/config/InstantiationAwareBeanPostProcessor.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE.jar!/org/springframework/context/support/GenericApplicationContext.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-end-line="13" />
+        <state relative-caret-position="109">
+          <caret line="27" column="63" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="uml://JAVA/org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessor">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessor</OriginalElement>
-          <nodes>
-            <node x="" y="">org.springframework.beans.factory.config.BeanPostProcessor</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-202.0" y="-21.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/annotation/RequiredAnnotationBeanPostProcessor.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        <state relative-caret-position="208">
+          <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="uml://JAVA/org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessorAdapter">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessorAdapter</OriginalElement>
-          <nodes>
-            <node x="" y="">org.springframework.beans.factory.config.BeanPostProcessor</node>
-            <node x="" y="">org.springframework.beans.factory.config.SmartInstantiationAwareBeanPostProcessor</node>
-            <node x="" y="">org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessor</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-98.0" y="65.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor</OriginalElement>
-          <nodes>
-            <node x="" y="">org.springframework.beans.factory.config.BeanPostProcessor</node>
-            <node x="" y="">org.springframework.core.Ordered</node>
-            <node x="" y="">org.springframework.beans.factory.config.SmartInstantiationAwareBeanPostProcessor</node>
-            <node x="" y="">org.springframework.beans.factory.BeanFactoryAware</node>
-            <node x="" y="">org.springframework.beans.factory.Aware</node>
-            <node x="" y="">org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessorAdapter</node>
-            <node x="" y="">org.springframework.core.PriorityOrdered</node>
-            <node x="" y="">org.springframework.beans.factory.support.MergedBeanDefinitionPostProcessor</node>
-            <node x="" y="">org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessor</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="378.0" y="231.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/config/InstantiationAwareBeanPostProcessorAdapter.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE.jar!/org/springframework/context/ConfigurableApplicationContext.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/config/BeanPostProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="598">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hello-redis/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-        </state>
+        <state relative-caret-position="-52" />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.8.1/jedis-2.8.1.jar!/redis/clients/util/Pool.class">
+    <entry file="file://$PROJECT_DIR$/hello-test/src/test/java/com/henu/test/TestIOC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-redis/src/main/resources/redis.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-redis/src/main/java/com/henu/redis/util/PropertiesUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.8.1/jedis-2.8.1.jar!/redis/clients/jedis/JedisPool.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="57" column="11" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-redis/src/main/java/com/henu/redis/RedisPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-dao/src/main/resources/mapper/AreaDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-web/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="79" column="21" lean-forward="true" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-redis/src/main/java/com/henu/redis/util/RedisPoolUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2154">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-web/src/main/java/com/henu/web/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="91" selection-start-line="91" selection-end-line="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.8.1/jedis-2.8.1.jar!/redis/clients/jedis/Jedis.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1474">
-          <caret line="260" column="37" lean-forward="true" selection-start-line="260" selection-start-column="37" selection-end-line="260" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.2/mybatis-spring-1.3.2.jar!/META-INF/maven/org.mybatis/mybatis-spring/pom.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.2/mybatis-spring-1.3.2.jar!/META-INF/maven/org.mybatis/mybatis-spring/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3952" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE.jar!/org/springframework/context/annotation/ImportBeanDefinitionRegistrar.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.2/mybatis-spring-1.3.2-sources.jar!/org/mybatis/spring/annotation/MapperScannerRegistrar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="47" column="58" selection-start-line="47" selection-start-column="58" selection-end-line="47" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/session/SqlSessionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/session/Configuration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16172">
-          <caret line="96" column="13" selection-start-line="96" selection-start-column="13" selection-end-line="96" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-dao/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-936" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/support/BeanDefinitionRegistryPostProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.2/mybatis-spring-1.3.2-sources.jar!/org/mybatis/spring/annotation/MapperScan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-974">
-          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/session/defaults/DefaultSqlSessionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/org.apache.ibatis.session.SqlSession">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>org.apache.ibatis.session.SqlSession</OriginalElement>
-          <nodes>
-            <node x="" y="">java.io.Closeable</node>
-            <node x="" y="">java.lang.AutoCloseable</node>
-            <node x="" y="">org.apache.ibatis.session.SqlSession</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-142.0" y="65.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/session/SqlSessionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="34" column="26" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/session/defaults/DefaultSqlSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.2/mybatis-spring-1.3.2-sources.jar!/org/mybatis/spring/SqlSessionTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1092">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/session/SqlSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.2/mybatis-spring-1.3.2-sources.jar!/org/mybatis/spring/mapper/MapperScannerConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="99" column="20" selection-start-line="99" selection-start-column="10" selection-end-line="99" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-web/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2158">
-          <caret line="83" column="7" lean-forward="true" selection-start-line="83" selection-start-column="7" selection-end-line="83" selection-end-column="7" />
+        <state relative-caret-position="26">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hello-redis/src/test/java/com/henu/redis/test/RedisTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1742">
-          <caret line="67" column="46" lean-forward="true" selection-start-line="67" selection-start-column="46" selection-end-line="67" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="156">
+          <caret line="72" column="44" lean-forward="true" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
         </state>
       </provider>
     </entry>

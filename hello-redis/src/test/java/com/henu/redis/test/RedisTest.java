@@ -4,13 +4,14 @@ import redis.clients.jedis.Jedis;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.UUID;
 
 public class RedisTest {
     public static void main(String[] args) {
         //连接本地的 Redis 服务
-        Jedis jedis = new Jedis("192.168.0.110", 6379);
+        Jedis jedis = new Jedis("192.168.0.124", 6379);
         System.out.println("连接成功");
-        jedis.auth("123456");
+        //jedis.auth("123456");
         //查看服务是否运行
         System.out.println("服务正在运行: " + jedis.ping());
         //string
@@ -56,16 +57,33 @@ public class RedisTest {
 //        System.out.println(jedis.hincrBy("hash","id",10));
 
         //数据库----3
-        System.out.println(jedis.select(3));
-        jedis.sadd("set", "2");
-        jedis.sadd("set", "2", "3", "4", "5");
+//        System.out.println(jedis.select(3));
+//        jedis.sadd("set", "2");
+//        jedis.sadd("set", "2", "3", "4", "5");
+//
+//        jedis.sadd("set1", "6", "7");
+//        jedis.smove("set1", "set", "6");
+//        jedis.smove("set1", "set", "7");
+//        System.out.println(jedis.smembers("set"));
+//        System.out.println(jedis.smembers("set1"));
+//        System.out.println(jedis.spop("set"));
+//        System.out.println(jedis.srem("set", "5"));
 
-        jedis.sadd("set1", "6", "7");
-        jedis.smove("set1", "set", "6");
-        jedis.smove("set1", "set", "7");
-        System.out.println(jedis.smembers("set"));
-        System.out.println(jedis.smembers("set1"));
-        System.out.println(jedis.spop("set"));
-        System.out.println(jedis.srem("set", "5"));
+        //数据库----4 bitmap位图
+        System.out.println(jedis.select(4));
+        // String str=UUID.randomUUID().toString().substring(0,5);
+        for (long i = 0; i < 1000L; i++) {
+            jedis.setbit("e02fe", i, true);
+        }
+//        //e02fe
+//        System.out.println(jedis.getbit("e02fe", 10L));
+//        System.out.println(jedis.bitcount("e02fe"));
+//        //数据库----5 有序集合SortSet
+//        System.out.println(jedis.select(5));
+//        String str = UUID.randomUUID().toString().substring(0, 9);
+//        for (int i = 0; i < 10; i++) {
+//            jedis.zadd(str, i / 2, i * 2 + "");
+//        }
+
     }
 }

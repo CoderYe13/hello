@@ -62,12 +62,22 @@
         <property name="author" value="Coder"></property>
         <property name="bookName" value="java开发"></property>
     </bean>
+
+    <bean id="a" class="com.henu.test.service.A">
+        <property name="b" ref="b"/>
+    </bean>
+
+    <bean id="b" class="com.henu.test.service.B">
+
+    </bean>
+
+
     <!--aop-->
     <bean class="com.henu.test.service.Calculator"></bean>
 
     <bean id="validAspect" class="com.henu.test.aspect.ValidAspect"></bean>
     <mvc:aspectj-autoproxy></mvc:aspectj-autoproxy>
-    <!--aopxml配置-->
+    <!--aop.xml配置-->
     <aop:config>
         <mvc:pointcut id="validAspectPointCut" expression="execution(public * com.henu.test.service.Calculator.*(..))"/>
         <mvc:aspect ref="validAspect">

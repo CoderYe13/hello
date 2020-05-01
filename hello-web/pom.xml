@@ -40,12 +40,12 @@
         </dependency>
 
 
-        <!-- servlet依赖，版本需要和servlet容器的一致 -->
+        <!-- servlet依赖，版本需要和servlet容器的一致,这里选择test这个就不会被打包到tomcat就不是产生冲突 -->
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
             <version>3.1.0</version>
-            <scope>provided</scope>
+            <scope>compile</scope>
         </dependency>
         <!-- spring mvc需要的jar包 -->
         <dependency>
