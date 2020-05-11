@@ -41,4 +41,17 @@ public class HelloTest {
        // System.out.println(areaDao.queryAreaById(1));
         System.out.println(areaDao.queryAreaByMap());
     }
+
+    @Test
+    public void test01() {
+        IAreaService areaService=applicationContext.getBean(IAreaService.class);
+
+        System.out.println(areaService.getAreaList(1,2));
+    }
+    @Test
+    public void test02() {
+        AreaDao areaDao=applicationContext.getBean(AreaDao.class);
+
+        System.out.println(areaDao.getList());
+    }
 }

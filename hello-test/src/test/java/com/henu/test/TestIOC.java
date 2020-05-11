@@ -1,6 +1,7 @@
 package com.henu.test;
 
 
+import com.henu.dao.area.AreaDao;
 import com.henu.test.config.ServiceFactory;
 import com.henu.test.entity.Man;
 import com.henu.test.entity.Person;
@@ -55,4 +56,5 @@ public class TestIOC {
         ServiceFactory serviceFactory = context.getBean(ServiceFactory.class);
         System.out.println(serviceFactory);
     }
+
 }

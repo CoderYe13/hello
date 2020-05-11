@@ -1,5 +1,7 @@
 package com.henu.service.impl;
 
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import com.henu.dao.area.AreaDao;
 import com.henu.entity.Area;
 import com.henu.service.IAreaService;
@@ -30,6 +32,14 @@ public class AreaServiceImpl implements IAreaService {
     public int bunchInsertArea(List<Area> areas) {
         int row=areaDao.batchInsertArea(areas);
         return row;
+    }
+
+    @Override
+    public PageInfo<Area> getAreaList(int pageNum, int pageSize) {
+        PageHelper.startPage(pageNum, pageSize);
+        List<Area> areas=areaDao.getList();
+        PageInfo<Area> pageInfo=new PageInfo<>(areas);
+        return pageInfo;
     }
 
     public AreaServiceImpl() {

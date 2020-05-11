@@ -1,5 +1,6 @@
 package com.henu.web.controller;
 
+import com.github.pagehelper.PageInfo;
 import com.henu.entity.Area;
 import com.henu.redis.util.RedisPoolUtil;
 import com.henu.service.IAreaService;
@@ -8,6 +9,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -42,6 +44,14 @@ public class HelloController {
        // areaService = webApplicationContext.getBean(AreaServiceImpl.class);
         return "" + areaService.queryByAreaId(1);
     }
+
+    @GetMapping("/getlist")
+    @ResponseBody
+    public String list(){
+        PageInfo<Area> areaList = areaService.getAreaList(1, 10);
+        return areaList.toString();
+    }
+
 
     @RequestMapping("/test")
     @ResponseBody

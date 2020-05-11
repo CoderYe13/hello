@@ -20,8 +20,12 @@
             <artifactId>spring-web</artifactId>
             <version>5.0.8.RELEASE</version>
         </dependency>
-
-
+        <!--pagehelper-->
+        <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper</artifactId>
+            <version>4.1.0</version>
+        </dependency>
         <dependency>
             <groupId>com.henu</groupId>
             <artifactId>hello-entity</artifactId>

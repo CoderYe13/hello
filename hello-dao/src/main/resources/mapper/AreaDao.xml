@@ -65,9 +65,9 @@
         where area_id=#{areaId}
     </delete>
 
-    <select id="getList" parameterType="int" resultType="com.henu.entity.Area">
+    <select id="getList"  resultType="com.henu.entity.Area">
         select * from tb_area
-        limit #{pageNum},#{pageSize}
+
     </select>
 
     <select id="getList1" parameterType="int" resultType="com.henu.entity.Area">

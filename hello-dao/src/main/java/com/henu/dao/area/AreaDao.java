@@ -22,5 +22,6 @@ public interface AreaDao {
     int insertArea(Area area);
     int updateArea(Area area);
     int deleteArea(int areaId);
-    List<Area> getList(@Param("pageNum") int pageNum, @Param("pageSize") int pageSize);
+    //使用pagehelper
+    List<Area> getList();
 }
