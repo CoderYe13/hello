@@ -49,6 +49,7 @@ public class HelloController {
     @ResponseBody
     public String list(){
         PageInfo<Area> areaList = areaService.getAreaList(1, 10);
+        System.out.println(areaList);
         return areaList.toString();
     }
 

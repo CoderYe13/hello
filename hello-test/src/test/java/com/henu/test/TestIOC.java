@@ -1,7 +1,6 @@
 package com.henu.test;
 
 
-import com.henu.dao.area.AreaDao;
 import com.henu.test.config.ServiceFactory;
 import com.henu.test.entity.Man;
 import com.henu.test.entity.Person;
@@ -9,16 +8,18 @@ import com.henu.test.service.A;
 import com.henu.test.service.Calculator;
 import com.henu.test.service.IndexService;
 import org.junit.Test;
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 
 public class TestIOC {
-    ConfigurableApplicationContext ioc = new ClassPathXmlApplicationContext("applicationContext01.xml");
+
 
     @Test
     public void test01() {
+        ConfigurableApplicationContext ioc = new ClassPathXmlApplicationContext("applicationContext01.xml");
         Person person = ioc.getBean(Person.class);//这种情况会造成出现org.springframework.beans.factory.NoUniqueBeanDefinitionException:No qualifying bean of type 'com.henu.test.entity.Person' available: expected single matching bean but found 2: person,man
         // Person person = (Person) ioc.getBean("person");
         Man man = ioc.getBean(Man.class);
@@ -31,9 +32,9 @@ public class TestIOC {
 
     @Test
     public void testAspect() {
+        ConfigurableApplicationContext ioc = new ClassPathXmlApplicationContext("applicationContext01.xml");
         Calculator calculator = ioc.getBean(Calculator.class);
         calculator.add(1, 2);
-
         calculator.div(1, 0);
     }
 
@@ -57,4 +58,9 @@ public class TestIOC {
         System.out.println(serviceFactory);
     }
 
+    @Test
+    public void test05() {
+        ApplicationContext context=new ClassPathXmlApplicationContext("applicationContext.xml");
+
+    }
 }
