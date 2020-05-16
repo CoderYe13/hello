@@ -8,9 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5c3b530a-4f47-473c-94ae-c152abc0e889" name="Default Changelist" comment="add pagehelper">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-test/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-test/src/test/java/com/henu/test/TestIOC.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-test/src/test/java/com/henu/test/TestIOC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-web/src/main/java/com/henu/web/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-web/src/main/java/com/henu/web/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/proxy/dynamic/Before.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/proxy/dynamic/Before.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-test/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-test/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,24 +29,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>demo</find>
-      <find>hello</find>
-      <find>exce</find>
-      <find>HandlerExce</find>
-      <find>getBean</find>
-      <find>sqlsession</find>
-      <find>sqlSessionManager</find>
-      <find>sqlSession</find>
-      <find>is</find>
-      <find>public &lt;T&gt; T getBean(Class&lt;T&gt; requiredType) throws BeansException</find>
-      <find>getBean(</find>
-      <find>postProcessAfterInitialization</find>
-      <find>getAdvicesAndAdvisorsForBean</find>
-      <find>refresh()</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -87,7 +68,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springboot-demo" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -125,24 +106,34 @@
       <recent name="D:\DataSpace\IdeaSpace\hello\src\main\resources\mapper" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestProxy.test02">
-    <configuration name="HelloTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hello-web" />
+  <component name="RunManager" selected="Application.JdkProxyTest">
+    <configuration name="CGLIBProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.henu.test.proxy.cglib.CGLIBProxyTest" />
+      <module name="hello-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.henu.web.test.*" />
+          <option name="PATTERN" value="com.henu.test.proxy.cglib.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.henu.web.test" />
-      <option name="MAIN_CLASS_NAME" value="com.henu.web.test.HelloTest" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestIOC.test05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JdkProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.henu.test.proxy.jdk.JdkProxyTest" />
+      <module name="hello-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.henu.test.proxy.jdk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestIOC.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hello-test" />
       <extension name="coverage">
         <pattern>
@@ -152,23 +143,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.henu.test" />
       <option name="MAIN_CLASS_NAME" value="com.henu.test.TestIOC" />
-      <option name="METHOD_NAME" value="test05" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestProxy.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hello-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.henu.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.henu.test" />
-      <option name="MAIN_CLASS_NAME" value="com.henu.test.TestProxy" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="METHOD_NAME" value="test03" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -281,20 +256,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.HelloTest.test01" />
-      <item itemvalue="Tomcat Server.Idea Tomcat 8.5.33" />
-      <item itemvalue="JUnit.TestIOC.test05" />
-      <item itemvalue="JUnit.TestProxy.test" />
+      <item itemvalue="Application.JdkProxyTest" />
+      <item itemvalue="Application.CGLIBProxyTest" />
       <item itemvalue="JUnit.TestProxy.test01" />
       <item itemvalue="JUnit.TestProxy.test02" />
+      <item itemvalue="JUnit.TestIOC.test03" />
+      <item itemvalue="Tomcat Server.Idea Tomcat 8.5.33" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JdkProxyTest" />
+        <item itemvalue="Application.CGLIBProxyTest" />
+        <item itemvalue="JUnit.TestIOC.test03" />
         <item itemvalue="JUnit.TestProxy.test02" />
         <item itemvalue="JUnit.TestProxy.test01" />
-        <item itemvalue="JUnit.TestProxy.test" />
-        <item itemvalue="JUnit.TestIOC.test05" />
-        <item itemvalue="JUnit.HelloTest.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -387,7 +362,9 @@
       <workItem from="1589283849662" duration="88000" />
       <workItem from="1589286500443" duration="30000" />
       <workItem from="1589292214961" duration="2571000" />
-      <workItem from="1589455558233" duration="8857000" />
+      <workItem from="1589455558233" duration="11856000" />
+      <workItem from="1589545036609" duration="7497000" />
+      <workItem from="1589618547176" duration="2503000" />
     </task>
     <task id="LOCAL-00001" summary="add pagehelper">
       <created>1589199118464</created>
@@ -424,50 +401,50 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1589124307552" />
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1589461442522">
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1589555409683">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1589461442522" />
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1589555409683" />
     <state x="274" y="0" key="CommitChangelistDialog2" timestamp="1589468622356">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="274" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1589468622356" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1589283954413">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1589620001550">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589283954413" />
-    <state width="1323" height="281" key="GridCell.Tab.0.bottom" timestamp="1589468016581">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589620001550" />
+    <state width="1323" height="270" key="GridCell.Tab.0.bottom" timestamp="1589556649230">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="281" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589468016581" />
-    <state width="1323" height="281" key="GridCell.Tab.0.center" timestamp="1589468016581">
+    <state width="1323" height="270" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589556649230" />
+    <state width="1323" height="270" key="GridCell.Tab.0.center" timestamp="1589556649230">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="281" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589468016581" />
-    <state width="1323" height="281" key="GridCell.Tab.0.left" timestamp="1589468016580">
+    <state width="1323" height="270" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589556649230" />
+    <state width="1323" height="270" key="GridCell.Tab.0.left" timestamp="1589556649229">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="281" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589468016580" />
-    <state width="1323" height="281" key="GridCell.Tab.0.right" timestamp="1589468016581">
+    <state width="1323" height="270" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589556649229" />
+    <state width="1323" height="270" key="GridCell.Tab.0.right" timestamp="1589556649230">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="281" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589468016581" />
-    <state width="1323" height="370" key="GridCell.Tab.1.bottom" timestamp="1589466291359">
+    <state width="1323" height="270" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589556649230" />
+    <state width="1323" height="370" key="GridCell.Tab.1.bottom" timestamp="1589471591125">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="370" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589466291359" />
-    <state width="1323" height="370" key="GridCell.Tab.1.center" timestamp="1589466291359">
+    <state width="1323" height="370" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589471591125" />
+    <state width="1323" height="370" key="GridCell.Tab.1.center" timestamp="1589471591125">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="370" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1589466291359" />
-    <state width="1323" height="370" key="GridCell.Tab.1.left" timestamp="1589466291359">
+    <state width="1323" height="370" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1589471591125" />
+    <state width="1323" height="370" key="GridCell.Tab.1.left" timestamp="1589471591125">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="370" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1589466291359" />
-    <state width="1323" height="370" key="GridCell.Tab.1.right" timestamp="1589466291359">
+    <state width="1323" height="370" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1589471591125" />
+    <state width="1323" height="370" key="GridCell.Tab.1.right" timestamp="1589471591125">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="370" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1589466291359" />
+    <state width="1323" height="370" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1589471591125" />
     <state width="1134" height="225" key="GridCell.Tab.2.bottom" timestamp="1589211232251">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -504,10 +481,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="475" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1589468571177" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1589466585086">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1589620670211">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1589466585086" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1589620670211" />
+    <state x="358" y="46" key="spring file set editor" timestamp="1589545617554">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="358" y="46" key="spring file set editor/0.0.1366.728@0.0.1366.728" timestamp="1589545617554" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

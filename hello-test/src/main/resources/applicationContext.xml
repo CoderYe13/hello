@@ -4,10 +4,16 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
     <bean id="userService" class="com.henu.test.proxy.UserServiceImpl"/>
     <bean id="orderService" class="com.henu.test.proxy.OrderServiceImpl"/>
-    <!--动态代理-->
+    <!--动态代理实现MethodBeforeAdvice-->
     <bean id="before" class="com.henu.test.proxy.dynamic.Before"/>
+    <!--自定义实现MethodInterceptor-->
+    <bean id="around" class="com.henu.test.proxy.dynamic.Around"/>
     <aop:config>
         <aop:pointcut id="pc" expression="execution(* *(..))"/>
         <aop:advisor advice-ref="before" pointcut-ref="pc"/>
+    </aop:config>
+    <aop:config>
+        <aop:pointcut id="pc1" expression="execution(* *())"/>
+        <aop:advisor advice-ref="around" pointcut-ref="pc1"/>
     </aop:config>
 </beans>
