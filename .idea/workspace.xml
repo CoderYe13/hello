@@ -7,9 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c3b530a-4f47-473c-94ae-c152abc0e889" name="Default Changelist" comment="add pagehelper">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/proxy/dynamic/Before.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/proxy/dynamic/Before.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-test/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-test/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/proxy/jdk/JdkProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/proxy/jdk/JdkProxyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/service/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/service/B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-test/src/test/java/com/henu/test/TestIOC.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-test/src/test/java/com/henu/test/TestIOC.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,9 +68,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="external.system.task.project.file.to.start" value="D:/DevTools/gradle-5.4" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springboot-demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -80,7 +83,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="Docker" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -106,7 +109,7 @@
       <recent name="D:\DataSpace\IdeaSpace\hello\src\main\resources\mapper" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JdkProxyTest">
+  <component name="RunManager" selected="JUnit.TestIOC.test06">
     <configuration name="CGLIBProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.henu.test.proxy.cglib.CGLIBProxyTest" />
       <module name="hello-test" />
@@ -149,7 +152,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestProxy.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestIOC.test06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hello-test" />
       <extension name="coverage">
         <pattern>
@@ -158,8 +161,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.henu.test" />
-      <option name="MAIN_CLASS_NAME" value="com.henu.test.TestProxy" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="MAIN_CLASS_NAME" value="com.henu.test.TestIOC" />
+      <option name="METHOD_NAME" value="test06" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -258,18 +261,18 @@
     <list>
       <item itemvalue="Application.JdkProxyTest" />
       <item itemvalue="Application.CGLIBProxyTest" />
-      <item itemvalue="JUnit.TestProxy.test01" />
       <item itemvalue="JUnit.TestProxy.test02" />
       <item itemvalue="JUnit.TestIOC.test03" />
+      <item itemvalue="JUnit.TestIOC.test06" />
       <item itemvalue="Tomcat Server.Idea Tomcat 8.5.33" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestIOC.test06" />
         <item itemvalue="Application.JdkProxyTest" />
         <item itemvalue="Application.CGLIBProxyTest" />
         <item itemvalue="JUnit.TestIOC.test03" />
         <item itemvalue="JUnit.TestProxy.test02" />
-        <item itemvalue="JUnit.TestProxy.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -364,7 +367,12 @@
       <workItem from="1589292214961" duration="2571000" />
       <workItem from="1589455558233" duration="11856000" />
       <workItem from="1589545036609" duration="7497000" />
-      <workItem from="1589618547176" duration="2503000" />
+      <workItem from="1589618547176" duration="12265000" />
+      <workItem from="1589639697152" duration="2032000" />
+      <workItem from="1589717206374" duration="3194000" />
+      <workItem from="1590413731821" duration="1462000" />
+      <workItem from="1590499647089" duration="268000" />
+      <workItem from="1592051226775" duration="5203000" />
     </task>
     <task id="LOCAL-00001" summary="add pagehelper">
       <created>1589199118464</created>
@@ -397,38 +405,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="21" key="#Tomcat_Server/0.0.1366.728@0.0.1366.728" timestamp="1589122086257" />
-    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589124307552">
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589631325823">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1589124307552" />
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1589555409683">
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1589631325823" />
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1592055824454">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1589555409683" />
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1592055824454" />
     <state x="274" y="0" key="CommitChangelistDialog2" timestamp="1589468622356">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="274" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1589468622356" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1589620001550">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1592051379611">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589620001550" />
-    <state width="1323" height="270" key="GridCell.Tab.0.bottom" timestamp="1589556649230">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1592051379611" />
+    <state width="1323" height="324" key="GridCell.Tab.0.bottom" timestamp="1592835114610">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="270" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589556649230" />
-    <state width="1323" height="270" key="GridCell.Tab.0.center" timestamp="1589556649230">
+    <state width="1323" height="324" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592835114610" />
+    <state width="1323" height="324" key="GridCell.Tab.0.center" timestamp="1592835114610">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="270" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589556649230" />
-    <state width="1323" height="270" key="GridCell.Tab.0.left" timestamp="1589556649229">
+    <state width="1323" height="324" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592835114610" />
+    <state width="1323" height="324" key="GridCell.Tab.0.left" timestamp="1592835114610">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="270" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589556649229" />
-    <state width="1323" height="270" key="GridCell.Tab.0.right" timestamp="1589556649230">
+    <state width="1323" height="324" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592835114610" />
+    <state width="1323" height="324" key="GridCell.Tab.0.right" timestamp="1592835114610">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="270" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589556649230" />
+    <state width="1323" height="324" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592835114610" />
     <state width="1323" height="370" key="GridCell.Tab.1.bottom" timestamp="1589471591125">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -477,14 +485,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1141" height="276" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1589124313080" />
+    <state x="184" y="5" key="SettingsEditor" timestamp="1589631363627">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="5" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1589631363627" />
     <state x="475" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589468571177">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="475" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1589468571177" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1589620670211">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1592057419286">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1589620670211" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1592057419286" />
     <state x="358" y="46" key="spring file set editor" timestamp="1589545617554">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -525,7 +537,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/hello-test/src/test/java/com/henu/test/TestIOC.java</url>
-          <line>43</line>
+          <line>44</line>
           <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

@@ -5,6 +5,7 @@ import com.henu.test.config.ServiceFactory;
 import com.henu.test.entity.Man;
 import com.henu.test.entity.Person;
 import com.henu.test.service.A;
+import com.henu.test.service.AFactoryBean;
 import com.henu.test.service.Calculator;
 import com.henu.test.service.IndexService;
 import org.junit.Test;
@@ -48,6 +49,7 @@ public class TestIOC {
     public void test03() {
         ConfigurableApplicationContext context = new ClassPathXmlApplicationContext("applicationContext01.xml");
         A a = context.getBean(A.class);
+        System.out.println(context.getBean("a").toString());
         System.out.println(a.getB());
     }
 
@@ -61,6 +63,14 @@ public class TestIOC {
     @Test
     public void test05() {
         ApplicationContext context=new ClassPathXmlApplicationContext("applicationContext.xml");
-
+    }
+    @Test
+    public void test06() {
+       AnnotationConfigApplicationContext context =new AnnotationConfigApplicationContext(AppConfig.class);
+        try {
+            System.out.println(context.getBean("&aFactoryBean"));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }
