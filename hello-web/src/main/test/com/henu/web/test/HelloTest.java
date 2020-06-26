@@ -19,15 +19,15 @@ public class HelloTest {
     ApplicationContext applicationContext = new ClassPathXmlApplicationContext("classpath:applicationContext.xml");
     @Test
     public void testBunchInsertArea() {
-        AreaDao areaDao=applicationContext.getBean(AreaDao.class);
+        IAreaService iAreaService=applicationContext.getBean(IAreaService.class);
         List<Area> areas=new ArrayList<>();
-        for (int i = 3422; i < 3424; i++) {
+        for (int i = 3432; i < 3434; i++) {
             Area area=new Area();
             area.setAreaName(i+"苑");
             area.setPriority(i/3418+1);
             areas.add(area);
         }
-        System.out.println(areaDao.batchInsertArea(areas));
+        System.out.println(iAreaService.bunchInsertArea(areas));
     }
     @Test
     public void test() throws SQLException {
