@@ -8,9 +8,9 @@ public class HelloService {
    @Resource
     HelloDao dao;
 
-//    public void setHelloDao(HelloDao dao) {
-//        this.dao = dao;
-//    }
+    public void setHelloDao(HelloDao dao) {
+        this.dao = dao;
+    }
     public void test(){
         System.out.println(dao);
     }

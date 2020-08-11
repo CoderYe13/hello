@@ -7,14 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c3b530a-4f47-473c-94ae-c152abc0e889" name="Default Changelist" comment="add pagehelper">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/config/ServiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/config/ServiceFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/service/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/service/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/service/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/service/B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/service/Z.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-test/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-test/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-test/src/test/java/com/henu/test/TestIOC.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-test/src/test/java/com/henu/test/TestIOC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/service/HelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-test/src/main/java/com/henu/test/service/HelloService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -407,7 +401,7 @@
       <workItem from="1595335238209" duration="7061000" />
       <workItem from="1595421461594" duration="1434000" />
       <workItem from="1597061979703" duration="5662000" />
-      <workItem from="1597147783847" duration="632000" />
+      <workItem from="1597147783847" duration="1821000" />
     </task>
     <task id="LOCAL-00001" summary="add pagehelper">
       <created>1589199118464</created>
@@ -467,26 +461,26 @@
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593002038256" />
     <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1595422940186" />
-    <state width="1323" height="197" key="GridCell.Tab.0.bottom" timestamp="1597074393045">
+    <state width="1323" height="197" key="GridCell.Tab.0.bottom" timestamp="1597149833151">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="335" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593184324484" />
-    <state width="1323" height="197" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1597074393045" />
-    <state width="1323" height="197" key="GridCell.Tab.0.center" timestamp="1597074393045">
+    <state width="1323" height="197" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1597149833151" />
+    <state width="1323" height="197" key="GridCell.Tab.0.center" timestamp="1597149833151">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="335" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593184324484" />
-    <state width="1323" height="197" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1597074393045" />
-    <state width="1323" height="197" key="GridCell.Tab.0.left" timestamp="1597074393045">
+    <state width="1323" height="197" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1597149833151" />
+    <state width="1323" height="197" key="GridCell.Tab.0.left" timestamp="1597149833150">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="335" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593184324483" />
-    <state width="1323" height="197" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1597074393045" />
-    <state width="1323" height="197" key="GridCell.Tab.0.right" timestamp="1597074393045">
+    <state width="1323" height="197" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1597149833150" />
+    <state width="1323" height="197" key="GridCell.Tab.0.right" timestamp="1597149833151">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="335" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593184324484" />
-    <state width="1323" height="197" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1597074393045" />
+    <state width="1323" height="197" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1597149833151" />
     <state width="1134" height="365" key="GridCell.Tab.1.bottom" timestamp="1593184324476">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
