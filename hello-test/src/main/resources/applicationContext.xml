@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd">
     <bean id="userService" class="com.henu.test.proxy.UserServiceImpl"/>
     <bean id="orderService" class="com.henu.test.proxy.OrderServiceImpl"/>
     <!--动态代理实现MethodBeforeAdvice-->
@@ -16,4 +19,8 @@
         <aop:pointcut id="pc1" expression="execution(* *())"/>
         <aop:advisor advice-ref="around" pointcut-ref="pc1"/>
     </aop:config>
+
+
+    <bean id="helloService" class="com.henu.test.service.HelloService" autowire="byName"></bean>
+    <bean id="helloDao" class="com.henu.test.service.HelloDao"></bean>
 </beans>

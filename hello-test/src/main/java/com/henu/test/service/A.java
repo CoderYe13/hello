@@ -9,7 +9,7 @@ import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 import javax.annotation.Resource;
 
-public class A implements Z, InitializingBean, DisposableBean {
+public class A implements InitializingBean, DisposableBean {
     @Resource
     private B b;
 

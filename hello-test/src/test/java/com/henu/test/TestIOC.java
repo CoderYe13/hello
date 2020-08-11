@@ -4,10 +4,7 @@ package com.henu.test;
 import com.henu.test.config.ServiceFactory;
 import com.henu.test.entity.Man;
 import com.henu.test.entity.Person;
-import com.henu.test.service.A;
-import com.henu.test.service.AFactoryBean;
-import com.henu.test.service.Calculator;
-import com.henu.test.service.IndexService;
+import com.henu.test.service.*;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -69,6 +66,26 @@ public class TestIOC {
        AnnotationConfigApplicationContext context =new AnnotationConfigApplicationContext(AppConfig.class);
         try {
             System.out.println(context.getBean("&aFactoryBean"));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Test//测试byName
+    public void test07() {
+        ApplicationContext context=new ClassPathXmlApplicationContext("applicationContext.xml");
+        try {
+           context.getBean(HelloService.class).test();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Test
+    public void test08() {
+        AnnotationConfigApplicationContext context =new AnnotationConfigApplicationContext(AppConfig.class);
+        try {
+            context.getBean(HelloService.class).test();
         } catch (Exception e) {
             e.printStackTrace();
         }
